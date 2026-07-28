@@ -1,29 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>"ABSENSI GURU PRO"</title> 
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+  >
+
+  <meta
+    http-equiv="Permissions-Policy"
+    content="camera=*, microphone=*, geolocation=*"
+  >
+
+  <title>Absensi Guru Pro</title>
 
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
     body {
+      width: 100%;
+      height: 100%;
       margin: 0;
       padding: 0;
-      overflow: hidden; /* Biar ga ada scrollbar */
-      background-color: #0d1117; /* Warna background gelap biar pas loading ga silau */
+      overflow: hidden;
+      background: #ffffff;
     }
+
     iframe {
-      border: none;
       width: 100vw;
       height: 100vh;
+      border: none;
       display: block;
     }
   </style>
 </head>
+
 <body>
 
-  <iframe src="https://script.google.com/macros/s/AKfycbyPIhvtfW9W74_7_Qbn8B1KG718iqR_WrZRONwztZNvc_AIOsU4lOFY-LHQqOEURFea9Q/exec"></iframe>
+  <iframe
+    src="https://script.google.com/macros/s/AKfycbyPIhvtfW9W74_7_Qbn8B1KG718iqR_WrZRONwztZNvc_AIOsU4lOFY-LHQqOEURFea9Q/exec"
+    allow="camera *; microphone *; geolocation *"
+    referrerpolicy="strict-origin-when-cross-origin"
+    title="Absensi Guru Pro"
+  ></iframe>
 
 </body>
 </html>
